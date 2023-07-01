@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
-   /*[Authorize(Roles = "Admin,Employee")]*/
+    [Authorize(Roles = "admin,Employee")]
     public class HomeController : Controller
     {
         // GET: Admin/Home

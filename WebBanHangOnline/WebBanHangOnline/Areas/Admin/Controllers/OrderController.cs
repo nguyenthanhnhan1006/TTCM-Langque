@@ -11,7 +11,7 @@ using WebBanHangOnline.Models.ViewModels;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
-    /*[Authorize(Roles = "Admin")]*/
+    [Authorize(Roles = "admin")]
     public class OrderController : Controller
     {
 
